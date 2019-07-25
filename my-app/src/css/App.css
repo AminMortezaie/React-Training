@@ -1,5 +1,15 @@
+@font-face {
+  font-family: iransans;
+  src: url('../fonts/Iransans.woff');
+}
+
 .App {
   text-align: center;
+  font-family: iransans, serif;
+}
+body,span,Button{
+  font-family: iransans, serif !important;
+  direction: rtl;
 }
 
 .App-logo {
